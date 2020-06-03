@@ -1,0 +1,12 @@
+---
+# Simple ETL example
+#
+# +-----------+      +-------------+      +--------+
+# |  EXTRACT  +----->+  TRANSFORM  +----->+  LOAD  |
+# +-----------+      +-------------+      +--------+
+#
+ovh.SIMPLE_ETL:
+  tasks:
+    - EXTRACT
+    - TRANSFORM
+    - LOAD
